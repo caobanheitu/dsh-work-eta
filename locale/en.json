@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Work ETA",
+    "description": "Shows, below the composer, how much longer the running turn should take. With a todo plan it prices the plan from per-item durations measured in this session (or a stated assumption until two items are measured) and counts the plan's elapsed time down; without a plan it uses the session's finished-turn average, and with neither it shows elapsed time only. An 'est.' tag marks assumption-backed readings, and the plugin says plainly when the turn has run past the estimate. The reading appears while a turn runs and disappears when it ends. This is a prediction, not a promise — plans with many small items predict better than one long item."
+  }
+}
