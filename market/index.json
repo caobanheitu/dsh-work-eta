@@ -1,0 +1,41 @@
+{
+  "format": 1,
+  "title": { "en": "Work ETA", "zh": "剩余时间预测" },
+  "description": {
+    "en": "A live estimate of how much longer the running turn needs.",
+    "zh": "实时预测距离工作完成所需时间。"
+  },
+  "metadata": {
+    "categories": {
+      "workflow": { "title": { "en": "Workflow & Automation", "zh": "工作流与自动化" } }
+    },
+    "labels": {},
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "dsh-work-eta",
+      "title": { "en": "Work ETA", "zh": "剩余时间预测" },
+      "description": {
+        "en": "Shows, below the composer, how much longer the running turn should take, priced from the session log.",
+        "zh": "在输入框下方显示本回合还要多久，估算来自会话日志。"
+      },
+      "homepage": "https://github.com/caobanheitu/dsh-work-eta#readme",
+      "repository": { "url": "https://github.com/caobanheitu/dsh-work-eta" },
+      "metadata": {
+        "category": "workflow",
+        "keywords": ["eta", "progress", "todo", "composer", "session-projection"],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1794672000,
+          "source": { "type": "npm" },
+          "engines": { "dsh": ">=0.2.2-rc.3 <0.3.0-0" }
+        }
+      ]
+    }
+  ]
+}
